@@ -89,7 +89,10 @@ public class Signup extends AppCompatActivity {
                     @Override
                     protected Map<String, String> getParams() throws AuthFailureError {
                         Map mymap = new HashMap<String,String>();
-                        mymap.put("","");
+                        mymap.put("email","");
+                        mymap.put("password","");
+                        mymap.put("name","");
+                        mymap.put("image","");
 
                         return mymap;
                     }
